@@ -1,2 +1,2 @@
 # CDatabase
-"Database" that stores a struct type using C 
+"Database" that stores a struct type using C. These records will be used through dynamic memory allocation (malloc) to create and destroy (free) memory. The structures will act as a database for your records (structures). This data structure will need to create enough memory to hold all the records and it will also remove records. When the records are removed, old memory is freed up and when the "database" is filled up new memory will be allocated so that more records can be stored.
